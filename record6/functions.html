@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String & Math Functions</title>
+</head>
+<body bgcolor="olive">
+    <h1>String & Math Functions</h1>
+    <fieldset style="background: linear-gradient(50deg,yellow,red)">
+    <h2>String Functions</h2>
+    <script>
+        var text=prompt("Enter any string:");
+        var s2=prompt("Enter another string : ");
+        document.write("Original: " + text + "<br>" );
+        document.write("Length: " + text.length + "<br>" );
+        document.write("Uppercase: " + text.toUpperCase() + "<br>" );
+        document.write("Lowercase: " + text.toLowerCase() + "<br>" );
+        document.write("Char at 1: " + text.charAt(1) + "<br>");
+
+        document.write("Concat : " + text.concat(s2) + "<br>");
+        document.write("IndexOf : " + text.indexOf("o") + "<br>");
+        document.write("last indexof : " + text.lastIndexOf("jo") + "<br>");
+        document.write("Slice : " + text.slice(2,5) + "<br>");
+        document.write("Trim : " + text.trim() );
+    </script>  
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+    <fieldset style="background: linear-gradient(50deg,green,rgb(58, 58, 192))">
+    <h2>Math Functions</h2>     
+    <script>                            
+        var num=parseFloat(prompt("Enter a number:"));
+        var num1=parseFloat(prompt("Enter a number:"));
+        document.write("Number: " + num + "<br>" +
+                       "Round: " + Math.round(num) + "<br>" +
+                       "Ceil: " + Math.ceil(num) + "<br>" +
+                       "Floor: " + Math.floor(num) + "<br>" +
+                       "Sqrt : " + Math.sqrt(num) + "<br>" +
+                       "Power of : " + Math.pow((num,num1)) + "<br>" +
+                       "Abs : " + Math.abs(num) + "<br>" + 
+                       "Random : " + Math.random());
+
+    </script>
+    </fieldset>
+</body>
+</html>
