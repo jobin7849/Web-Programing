@@ -1,0 +1,5 @@
+body{background: linear-gradient(50deg,rgb(238, 4, 238),rgb(0, 204, 255));
+    font-family: Franklin Gothic;}
+ol {background:rgb(4, 247, 247); font-size: 20px; padding:25px}
+ul {background:rgb(39, 219, 7); font-size: 20px; padding:20px}
+li {margin:20px 0}
